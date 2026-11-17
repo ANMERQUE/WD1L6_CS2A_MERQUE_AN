@@ -1,0 +1,114 @@
+/* ===== Whole page ===== */
+body {
+  background-color: #12305c;   /* blue background */
+  color: white;                /* text color */
+  padding-top: 56px;           /* space for the fixed navbar */
+  font-family: arial, sans-serif;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+a {
+  color: #cfe3fa;
+}
+
+/* ===== Navbar and hero ===== */
+.navbar {
+  border-bottom: 1px solid #ebebeb;
+  background-color: #0f2747;
+  padding: 12px 24px;
+}
+
+
+.hero {
+  background-color: #162c4a;
+  padding: 48px 0;
+}
+
+/* ===== Photo and motto ===== */
+.photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;           /* keeps the photo from stretching */
+  border: 6px solid #cfe3fa;
+}
+
+.motto {
+  font-style: italic;
+  font-size: 20px;
+  color: #cfe3fa;
+}
+
+/* ===== Cards ===== */
+.card {
+  background-color: #cfe3fa;
+  color: #0f2747;
+  border: none;
+}
+
+.philosophy,
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+
+.philosophy-intro {
+    background-color: #cfe3fa;
+    width: 100%;
+    height: 200px;
+    margin: 15px auto;
+    padding: 20px;
+    color: #14304f;
+    border-radius: 12px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.project-card {
+  background: #cfe2fa;
+  border-radius: 8px;
+
+}
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+#contact .contact-box {
+  background: #2a4465;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+#contact .contact-list li {
+  margin-top: 1rem;
+}
+
+#contact .contact-label {
+  display: block;
+  font-size: .10rem;
+
+}
+
+#contact a {
+  color: #fff;
+}
+
+footer {
+  border-top: 1px solid #ebebeb;
+  background-color: #0f2747;
+  padding: 12px 24px;
+}
